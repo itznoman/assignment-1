@@ -53,12 +53,12 @@ body {
 
 /* Main section styles */
 .main {
-    max-width: 1140px;
-    margin: auto;
+    max-width: 140px;
+    
 }
 
 .featured {
-    margin: 130px 0px;
+    margin: 100px 0px;
 }
 
 .section-tittle {
@@ -67,6 +67,8 @@ body {
     font-family: Lato;
     font-size: 30px;
     font-weight: 800;
+    margin: 10px;
+    padding: 10px;
 }
 
 .section-description {
@@ -74,7 +76,7 @@ body {
     text-align: center;
     font-family: Lato;
     font-size: 18px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .featured-flowers {
@@ -214,4 +216,16 @@ body {
 
 .text-1 , .text-2 {
     text-align: center;
+}
+
+.text-area{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border: none;
+}
+.text-button{
+    display: flex;
+    justify-content: space-around;
+    -ms-flex-item-align: center;
 }
