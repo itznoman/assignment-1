@@ -160,22 +160,58 @@ body {
 }
 
 /* instagram styles */
-.instagram-picture{
+.instagram-picture {
     display: flex;
     gap: 10px;
 }
-.img-1{
-    padding-left:  240px;
-    padding-right:  3px;
-}
-.img-2{
-    padding-left:  24px;
-}
-.img-3{
-    padding-left:  24px;
-}
-.img-4{
-    padding-left:  24px;
-    padding-right:  240px;
+
+.img-1 {
+    padding-left: 240px;
+    padding-right: 3px;
 }
 
+.img-2 {
+    padding-left: 24px;
+}
+
+.img-3 {
+    padding-left: 24px;
+}
+
+.img-4 {
+    padding-left: 24px;
+    padding-right: 240px;
+}
+
+/* Deals styles */
+.deals-text {
+    background-image: url(../Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin: 128px 240px;
+    border-radius: 8px;
+}
+
+
+
+/* footer */
+.footer-last-text {
+    text-align: center;
+}
+
+.footer {
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    text-align: center;
+    color: azure;
+    font-size: 20px;
+    font-weight: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-1 , .text-2 {
+    text-align: center;
+}
