@@ -1,0 +1,54 @@
+/* Common Styles Shared */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Banner Styles Shared */
+
+.banner-contant {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 197px 240px;
+}
+
+.banner-tittle {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+
+.banner {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    width: 1720px;
+    height: 1000px;
+    padding: 50px 50px 0px 150px;
+}
+
+.banner-picture {
+    width: 635px;
+    height: 800px;
+    padding: 30px 150px;
+    
+}
